@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PREVED MEDVED on TON</title>
+    <link rel="shortcut icon" type="image/jpg" href="favicon.ico"/>
+    <link rel="manifest" href="assets/favicons/manifest.json">
+
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="description" content="PREVED MEDVED on TON - preved krosavcheg! Token kupi pabrathersky!">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://preved.meme/">
+    <meta property="og:title" content="PREVED MEDVED on TON">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="225">
+    <meta property="og:image:height" content="225">
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+
+
+</head>
+<script src="scripts.js"></script>
+
+<body>
+
+<div class="container">
+    <div class="wrapper">
+        <div class="header">
+            <div class="languages">
+                <a href="/index_en.html" style="color: white" class="lang-ru">
+                    <span>ЕИG</span>
+                </a>
+                <span style="font-size: 2.3rem">/</span>
+                <a href="index.html" style="color: white" class="lang-en">
+                    <span>РУС</span>
+                </a>
+            </div>
+            <div class="buy">
+                <a href="https://dedust.io/swap/TON/EQDmwrn0t50SMinY48RbzsWC_K-AqU6WdKbgQwMLBS7h_EM8" style="color: black" target="_blank">BUY</a>
+            </div>
+        </div>
+        <div class="tokenomics">
+            <div class="ticker-wrap">
+                <div class="ticker">
+                    15% for the team (10% will be locked) / 5% for marketing / <span style="font-family: Timmana">8</span>0% for the community / <span style="font-family: Timmana">LP</span> locked! / Contract o<span style="font-family: Timmana">w</span>nership </span> revoked / LP BURNT
+                </div>
+            </div>
+        </div>
+
+
+        <div class="images-container">
+            <div class="party-container">
+                <img src="assets/images/party.png" alt="party" id="">
+            </div>
+            <div class="medved-container">
+                <img src="assets/images/medved.png" alt="medved" id="draggingImage">
+            </div>
+        </div>
+        <div class="ca-and-tg">
+            <div>
+                <button class="copy-button" style="cursor:pointer;" onclick="copyText()">
+                    <span id="copyText" style="font-size: 40px">CA</span>
+                    <div class="icon">⧉</div>
+                </button>
+
+            </div>
+            <a href="https://t.me/preved_medved_ton" class="telegram-wrapper" target="_blank">
+                <img src="assets/images/telegram.svg" alt="" class="telegram">
+            </a>
+        </div>
+
+
+    </div>
+</div>
+</body>
+<script>
+    function copyText() {
+        var textToCopy = "EQDmwrn0t50SMinY48RbzsWC_K-AqU6WdKbgQwMLBS7h_EM8";
+        var tempInput = document.createElement("input");
+        tempInput.value = textToCopy;
+        document.body.appendChild(tempInput);
+        tempInput.select();
+        document.execCommand("copy");
+        document.body.removeChild(tempInput);
+        alert("CA copied: " + textToCopy);
+    }
+
+</script>
+</html>
